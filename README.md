@@ -1,2 +1,3 @@
-# manager
+# Manager
+
 Manage characters, stages and lifebars
