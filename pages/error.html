@@ -9,7 +9,7 @@
     <script>
       const message = window.location.search.split("=")[1];
       const p = document.createElement("p");
-      p.textContent = message;
+      p.textContent = decodeURIComponent(message);
       document.body.appendChild(p);
     </script>
   </body>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Manager</title>
+  </head>
+  <body>
+    <h1>Characters</h1>
+    <ul>
+    {% for category in charactersByCategory %}
+      <li>{{ category.name }}</li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -25,7 +25,7 @@
   "dependencies": {
     "@fastify/view": "^9.0.0",
     "fastify": "^4.26.2",
-    "twig": "^1.17.1"
+    "nunjucks": "^3.2.4"
   },
   "devDependencies": {
     "electron": "^29.2.0",
